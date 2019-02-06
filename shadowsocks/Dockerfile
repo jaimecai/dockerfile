@@ -6,7 +6,7 @@ ARG TZ='Asia/Shanghai'
 
 ENV TZ $TZ
 ENV SS_LIBEV_VERSION 3.2.3
-ENV KCP_VERSION 20170718
+ENV KCP_VERSION 20170904
 ENV SS_DOWNLOAD_URL https://github.com/shadowsocks/shadowsocks-libev/releases/download/v${SS_LIBEV_VERSION}/shadowsocks-libev-${SS_LIBEV_VERSION}.tar.gz
 ENV OBFS_DOWNLOAD_URL https://github.com/shadowsocks/simple-obfs.git
 ENV V2RAY_PLUGIN_DOWNLOAD_URL https://github.com/shadowsocks/v2ray-plugin/releases/download/v1.0/v2ray-plugin-linux-amd64-8cea1a3.tar.gz
